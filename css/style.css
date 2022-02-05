@@ -43,7 +43,7 @@ h3{
     margin-left: 33px;
 }
 .container{
-    max-width: 865px;
+    max-width: 100%;
     padding: 0 5px;
     margin: 0 auto;
 }
