@@ -59,6 +59,7 @@ h3{
     font-weight: bold;
     font-size: 44px;
     line-height: 136%;
+    color:#21243D;
 }
 .about{
     padding-top: 140px;
@@ -72,6 +73,13 @@ h3{
 }
 .about__text{
     margin: 44px 0px;
+    color:#21243D;
+}
+.button{
+    background-color:#FF6464;
+    color: white;
+    padding: 9px 21px 19px 20px;
+    border-radius: 2px;
 }
 .about__avatar{
     height: 243px;
@@ -84,4 +92,76 @@ h3{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.recent-posts{
+    height: 396px;
+    background-color:#EDF7FA;
+}
+.recent-posts__top{
+    display: flex;
+    justify-content: space-between;
+}
+.recent-posts__title{
+    width: 129px;
+    height: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+}
+.recent-posts__link{
+    width: 208px;
+    height: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: right;
+    color: #00A8CC;
+}
+.recent-posts__articles{
+    vertical-align: top;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+.recent-posts__article{
+    width: 418px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+.recent-posts__subtitle{
+    width: 374px;
+    height: 85px;
+    margin: 24px 21px 17px 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+    color:#21243D;
+}
+.recent-posts__info{
+    width: 374px;
+    height: 34px;
+    margin: 0 21px 11px 23px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color:#21243D;
+}
+.recent-posts__separator{
+    margin-left: 26px;
+    margin-right: 26px;
+}
+.recent-posts__text{
+    width: 368px;
+    height: 117px;
+    margin: 0 27px 7px 23px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color:#21243D;
 }
