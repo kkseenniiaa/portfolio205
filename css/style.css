@@ -94,57 +94,48 @@ h3{
     object-fit: cover;
 }
 .recent-posts{
-    height: 396px;
     background-color:#EDF7FA;
+    padding: 27px 0 32px;
 }
 .recent-posts__top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
 }
 .recent-posts__title{
-    width: 129px;
-    height: 60px;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
-    line-height: 60px;
+    line-height: 2.72%;
 }
 .recent-posts__link{
-    width: 208px;
-    height: 20px;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
     line-height: 23px;
-    text-align: right;
     color: #00A8CC;
 }
-.recent-posts__articles{
-    vertical-align: top;
-    padding: 2px;
+.recent-posts__articles{ 
     display: flex;
-    justify-content: center;
 }
 .recent-posts__article{
-    width: 418px;
+    width: 49%;
+    margin-right: 2%;
+    padding: 24px 21px 28px 23px;
     background-color: white;
-    margin-right: 20px;
     border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+}
+.recent-posts__article:last-child{
+    margin-right: 0;
 }
 .recent-posts__subtitle{
-    width: 374px;
-    height: 85px;
-    margin: 24px 21px 17px 23px;
-    font-style: normal;
+    color:#21243D;
     font-weight: bold;
     font-size: 26px;
     line-height: 38px;
-    color:#21243D;
 }
 .recent-posts__info{
-    width: 374px;
-    height: 34px;
-    margin: 0 21px 11px 23px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -156,9 +147,6 @@ h3{
     margin-right: 26px;
 }
 .recent-posts__text{
-    width: 368px;
-    height: 117px;
-    margin: 0 27px 7px 23px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
