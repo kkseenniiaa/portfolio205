@@ -33,6 +33,7 @@ h3{
     overflow: hidden;
 }
 .header{
+    margin-top: 27px;
     padding: 3px 0px;
 }
 .container{
@@ -134,6 +135,7 @@ h3{
     font-weight: bold;
     font-size: 26px;
     line-height: 38px;
+    margin-bottom: 17px;
 }
 .recent-posts__info{
     font-style: normal;
@@ -141,6 +143,7 @@ h3{
     font-size: 18px;
     line-height: 26px;
     color:#21243D;
+    margin-bottom: 11px;
 }
 .recent-posts__separator{
     margin-left: 26px;
