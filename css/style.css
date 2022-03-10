@@ -66,7 +66,6 @@ h3{
     width: 100%;
     background-color: #21243D;
     position: relative;
-    margin-right: 18px;
 }
 .header__burger-el::before,
 .header__burger-el::after{
@@ -85,12 +84,14 @@ h3{
 @media (max-width: 480px){
     .header{
         padding-top: 20px;
+        padding-bottom: 12px;
     }
     .nav{
         display: none;
     }
     .header__burger{
         display: flex;
+        margin-right: 13px;
     }
 }
 .title{
@@ -131,6 +132,24 @@ h3{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+@media(max-width:480px){
+    .about__container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about__title{
+        line-height: 1.25;
+    }
+    .about__info{
+        text-align: center;
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+    .about__avatar{
+        width: 170px;
+        height: 170px;
+    }
 }
 .recent-posts{
     background-color:#EDF7FA;
@@ -194,10 +213,30 @@ h3{
     line-height: 23px;
     color:#21243D;
 }
+@media(width:480px){
+    .recent-posts{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .recent-posts__top{
+        justify-content: center;
+        margin-bottom: 19px;
+    }
+    .recent-posts__link{
+        display: none;
+    }
+    .recent-posts__articles{
+        flex-direction: column;
+    }
+    .recent-posts__article{
+        padding: 12px 20px 22px;
+        margin-right: 0;
+        margin-bottom: 17px;
+    }
+}
 .featured{
     padding: 34px 0 75px 0;
     display: flex;
-
 }
 .section-title{
     font-style: normal;
