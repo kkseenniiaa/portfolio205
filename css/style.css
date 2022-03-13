@@ -50,12 +50,8 @@ h3{
 }
 .nav__item{
     margin-left: 33px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
 }
 .header__burger{
-    margin-right: 18px;
     width: 30px;
     height: 18px;
     display: none;
@@ -227,7 +223,6 @@ h3{
     }
     .recent-posts__articles{
         flex-direction: column;
-        padding: 0 5px 0 5px;
     }
     .recent-posts__article{
         padding: 12px 20px 22px;
