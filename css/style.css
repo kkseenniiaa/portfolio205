@@ -48,6 +48,7 @@ h3{
 }
 .nav__list{
     display: flex;
+    font-weight: bold;
 }
 .nav__item{
     margin-left: 33px;
@@ -312,7 +313,9 @@ h3{
     line-height: 23px;
     color: #21243D;
 }
-
+.footer{
+    margin-top: 53px
+}
 .social__list{
     display: flex;
     margin-bottom: 26px;
@@ -352,4 +355,46 @@ h3{
     line-height: 21px;
     display: flex;
     justify-content: center;
+}
+.blog{
+    margin-top: 106px;
+}
+.blog__article{
+    border-bottom: 1px solid #E0E0E0;
+}
+.blog__title{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 55px;
+}
+.blog__subtitle{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+.blog__info{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+    margin-bottom: 6px;
+}
+.blog__separator{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.color{
+    color: #8695A4;
+}
+.blog__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-bottom: 29px;
 }
