@@ -31,6 +31,11 @@ h3{
 .wrapper{
     min-height: 100%;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 1 1 auto ;
 }
 .header{
     padding-top: 30px;
@@ -151,7 +156,7 @@ h3{
 }
 .recent-posts{
     background-color:#EDF7FA;
-    padding: 27px 0 32px;
+    padding: 27px 5px 32px;
     color: #21243D;
 }
 .recent-posts__top{
@@ -173,10 +178,10 @@ h3{
     color: #00A8CC;
 }
 .recent-posts__articles{ 
-     display: flex;
+    display: flex;
 }
 .recent-posts__article{
-    width: 49%;
+    width: 100%;
     margin-right: 2%;
     padding: 24px 21px 28px 23px;
     background-color: white;
@@ -205,7 +210,7 @@ h3{
     margin-left: 26px;
     margin-right: 26px;
 }
-@media(width:480px){
+@media (max-width:480px){
     .recent-posts{
         padding-right: 5px;
         padding-left: 5px;
@@ -214,11 +219,11 @@ h3{
         justify-content: center;
         margin-bottom: 19px;
     }
-    .recent-posts__link{
-        display: none;
-    }
     .recent-posts__articles{
         flex-direction: column;
+    }
+    .recent-posts__link{
+        display: none;
     }
     .recent-posts__article{
         padding: 12px 20px 22px;
@@ -235,7 +240,6 @@ h3{
 }
 .featured{
     padding: 34px 0 75px 0;
-    display: flex;
 }
 .section-title{
     font-style: normal;
@@ -299,6 +303,7 @@ h3{
     .work__img-wrap{
         max-width: 100%;
         max-height: 230px;
+        margin-right: 0;
     }
 }
 .work__category{
@@ -335,17 +340,17 @@ h3{
     width: 100%;
     height: 100%;
 }
-.social_fb{
-    background-image: url(../img/social/fb.png);
+.social_vk{
+    background-image: url(../img/social/vk.png);
 }
-.social_insta{
-    background-image: url(../img/social/insta.png);
+.social_ok{
+    background-image: url(../img/social/ok.png);
 }
-.social_twitter{
-    background-image: url(../img/social/Group.png);
+.social_github{
+    background-image: url(../img/social/github.png);
 }
-.social_in{
-    background-image: url(../img/social/Linkedin.png);
+.social_telegram{
+    background-image: url(../img/social/telegram.png);
 }
 .social__text{
     margin-bottom: 54px;
